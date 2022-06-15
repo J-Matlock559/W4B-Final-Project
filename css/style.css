@@ -113,3 +113,52 @@ section.about{
     height: 80px;
     background-color: aqua;
 }
+/* Product images below */
+.hatcard{
+    background: url("../img/Beyond-Hat.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.hatcard:hover{
+    background: url("../img/Hat-Zoom.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.Mteecard{
+    background: url("../img/Beyond-Mens-Tee.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.Mteecard:hover{
+    background: url("../img/Tee-Zoom.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.Wteecard{
+    background: url("../img/Beyond-Womens-Tee.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.Wteecard:hover{
+    background: url("../img/Tee-Zoom.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+/* Product images above */
