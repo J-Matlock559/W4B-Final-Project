@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .scroll{
@@ -113,7 +114,7 @@ section.about{
     height: 80px;
     background-color: aqua;
 }
-/* Product images below */
+/* ----------------------------------Product images below */
 .hatcard{
     background: url("../img/Beyond-Hat.jpg") no-repeat;
     background-size: contain;
@@ -210,4 +211,6 @@ section.about{
     background-position: center;
 }
 
-/* Product images above */
+/* ----------------------------------Product images above */
+
+/* Baloo 2, Kdam Thorm */
