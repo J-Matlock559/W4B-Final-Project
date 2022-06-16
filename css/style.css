@@ -161,4 +161,53 @@ section.about{
     width: auto;
     background-position: center;
 }
+
+.beaniecard{
+    background: url("../img/Beyond-Beanie.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.beaniecard:hover{
+    background: url("../img/Beanie-Zoom.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.hoodiecard{
+    background: url("../img/Beyond-Hoodie.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.hoodiecard:hover{
+    background: url("../img/Hoodie-Zoom.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.polocard{
+    background: url("../img/Beyond-Polo.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
+.polocard:hover{
+    background: url("../img/Polo-Zoom.jpg") no-repeat;
+    background-size: contain;
+    height: 99%;
+    width: auto;
+    background-position: center;
+}
+
 /* Product images above */
