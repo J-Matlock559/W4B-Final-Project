@@ -13,6 +13,8 @@
 
 body{
     background-color: rgb(44, 41, 41);
+    background-image: url("../img/Background.jpg");
+    background-size: cover;
 }
 
 .hero-image{
@@ -47,7 +49,7 @@ nav ul li:hover{
 }
 
 .active{
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 li a{
