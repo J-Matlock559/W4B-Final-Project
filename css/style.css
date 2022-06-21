@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: grey;
+    background-color: rgb(44, 41, 41);
 }
 
 .hero-image{
@@ -24,12 +24,12 @@ body{
 }
 
 nav{
-    background-color: red;
+    background-color: rgba(255, 0, 0, .7);
     text-align: right;
-    height: 38px;
+    height: 50px;
     position: sticky;
     top: 0px;
-    padding-top: 9px;
+    padding-top: 15px;
 }
 
 nav ul li{
@@ -52,46 +52,46 @@ nav ul li:hover{
 
 li a{
     text-decoration: none;
+    color: white;
 }
 
-footer{
-    text-align: center;
-    margin: 40px;
-}
 
-footer ul li{
-    display: inline;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-section.index{
-    width: 49.5%;
-    display: inline-block;
-    height: 70vh;
-    background-color: cadetblue;
-    margin-top: 5px;
-}
-
-article{
-    width: 100%;
-    height: 300px;
-    background-color: crimson;
-    text-align: center;
-    display: inline-block;
-}
-
-section.about{
-    width: 100%;
-    height: 800px;
-    background-color: bisque;
-    display: inline-block;
-}
 
 .logo{
-    height: 38px;
+    height: 50px;
     float: left;
-    margin-top: -9px;
+    margin-top: -15px;
+}
+
+.h1div{
+    text-align: center;
+    margin: 20px;
+    color: rgb(245, 92, 92);
+}
+
+.indexshows{
+    float: left;
+    width: 33.33%;
+    height: 1000px;
+    padding: 20px;
+}
+
+.show1{
+    background: url("../img/Show-1.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.show2{
+    background: url("../img/Show-2.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.show3{
+    background: url("../img/Show-3.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .row::after{
@@ -104,15 +104,14 @@ section.about{
     float: left;
     width: 33.33%;
     height: 400px;
-    background-color:#fff;
+    background-color: rgba(255, 255, 255, .3);
     padding: 10px;
-    /* border: 1px solid black; */
     text-align: center;
 }
 
 .descCol{
     height: 80px;
-    background-color: aqua;
+    background-color: red;
 }
 /* ----------------------------------Product images below */
 .hatcard{
@@ -214,3 +213,27 @@ section.about{
 /* ----------------------------------Product images above */
 
 /* Baloo 2, Kdam Thorm */
+
+footer{
+    text-align: center;
+    margin: 40px;
+    clear:both;
+}
+
+footer ul li{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+hr{
+    width: 33.33%;
+    margin-left: 33.33%;
+}
+
+.social-icon{
+    font-size: 3rem;
+    margin: 10px;
+    color: rgba(255, 0, 0, .7);
+}
+
