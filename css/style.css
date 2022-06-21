@@ -15,6 +15,7 @@ body{
     background-color: rgb(44, 41, 41);
     background-image: url("../img/Background.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero-image{
