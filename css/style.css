@@ -240,3 +240,31 @@ hr{
     color: rgba(255, 0, 0, .7);
 }
 
+main.contact{
+    width: 80%;
+    height: 160vh;
+    margin-left: 10%;
+    background-color: grey;
+    text-align: center;
+}
+
+
+/* label textarea{
+    vertical-align: middle;
+}
+
+form{
+    display: table;
+}
+
+label{
+    display: table-row;
+}
+
+input{
+    display: table-cell;
+}
+
+p.contact{
+    display: table-row;
+} */
