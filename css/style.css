@@ -17,7 +17,7 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     width: 100%;
-    height: 30vh;
+    height: 300px;
 }
 
 nav{
@@ -252,7 +252,7 @@ footer > a{
 
 main.contact{
     width: 60%;
-    height: 110vh;
+    height: 980px;
     margin-left: 20%;
     background-color: rgba(255, 255, 255, .4);
     text-align: center;
@@ -343,22 +343,6 @@ iframe{
     width: 90%;
 }
 
-/* label textarea{
-    vertical-align: middle;
-}
-
 form{
-    display: table;
+    height: 90%;
 }
-
-label{
-    display: table-row;
-}
-
-input{
-    display: table-cell;
-}
-
-p.contact{
-    display: table-row;
-} */
