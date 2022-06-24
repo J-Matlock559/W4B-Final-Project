@@ -5,12 +5,6 @@
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-.scroll{
-    height: 2000px;
-    width: 20px;
-    background-color: aliceblue;
-}
-
 body{
     background-color: rgb(44, 41, 41);
     background-image: url("../img/Background.jpg");
@@ -29,46 +23,54 @@ body{
 nav{
     background-color: rgba(255, 0, 0, .7);
     text-align: right;
-    height: 50px;
+    height: 49px;
     position: sticky;
     top: 0px;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 nav ul li{
     display: inline;
     height: 38px;
-    padding: 10px;
+    padding-bottom: 10px;
     margin-right: 5px;
-   /*  border: 1px solid black; */
     list-style-type: none;
     border-radius: 10px;
 }
 
-nav ul li:hover{
-   background-color: blue;
+nav ul li a:hover{
+   color: rgba(255, 0, 0, .7);
+   background-color: white;
 }
 
 .active{
     border-bottom: 3px solid white;
 }
 
-li a{
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 10px;
+}
+
+footer li a{
     text-decoration: none;
     color: white;
 }
 
 .logo{
-    height: 50px;
+    height: 49px;
     float: left;
-    margin-top: -15px;
+    margin-top: -12px;
     margin-left: 10px;
 }
 
 .h1div{
     text-align: center;
     margin: 20px;
-    color: rgb(245, 92, 92);
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px
 }
 
 .indexshows{
@@ -220,12 +222,11 @@ li a{
 
 /* ----------------------------------Product images above */
 
-/* Baloo 2, Kdam Thorm */
-
 footer{
     text-align: center;
     margin: 40px;
     clear:both;
+    color: white;
 }
 
 footer ul li{
@@ -241,15 +242,28 @@ hr{
 
 .social-icon{
     font-size: 3rem;
-    margin: 10px;
+    margin: 20px;
     color: rgba(255, 0, 0, .7);
 }
 
+footer > a{
+    text-decoration: none;
+}
+
 main.contact{
-    width: 80%;
-    height: 160vh;
-    margin-left: 10%;
-    background-color: grey;
+    width: 60%;
+    height: 110vh;
+    margin-left: 20%;
+    background-color: rgba(255, 255, 255, .4);
+    text-align: center;
+}
+
+.contact>h1, .contact>p, input, label, textarea{
+    font-family: 'Lato', sans-serif;
+}
+
+input{
+    width: 30%;
     text-align: center;
 }
 
@@ -259,7 +273,8 @@ section{
    /*  background-color: rgba(255, 255, 255, .3); */
     clear: both;
     text-align: center;
-    color:rgba(255, 0, 0, 1);
+    color: rgb(255, 0, 0);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px
 }
 
 .media{
@@ -277,6 +292,55 @@ section{
 iframe{
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.bio{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.bandpics{
+    float: left;
+    width: 50%;
+    height: 800px;
+    padding-left: 5%;
+}
+
+.marc{
+    background: url("../img/Marc-Bass.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 90%;
+    width: 90%;
+}
+
+.ethan{
+    background: url("../img/Ethan-Guitar.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 90%;
+    width: 90%;
+}
+
+.andrew{
+    background: url("../img/Andrew-Drums.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 90%;
+    width: 90%;
+    clear: left;
+}
+
+.band{
+    background: url("../img/Full-Band.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 90%;
+    width: 90%;
 }
 
 /* label textarea{
