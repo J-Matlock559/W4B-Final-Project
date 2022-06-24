@@ -58,12 +58,11 @@ li a{
     color: white;
 }
 
-
-
 .logo{
     height: 50px;
     float: left;
     margin-top: -15px;
+    margin-left: 10px;
 }
 
 .h1div{
@@ -76,25 +75,31 @@ li a{
     float: left;
     width: 33.33%;
     height: 1000px;
-    padding: 20px;
+    padding-left: 4%;
 }
 
 .show1{
     background: url("../img/Show-1.jpg") no-repeat;
     background-size: contain;
     background-position: center;
+    height: 90%;
+    width: 90%;
 }
 
 .show2{
     background: url("../img/Show-2.jpg") no-repeat;
     background-size: contain;
     background-position: center;
+    height: 90%;
+    width: 90%;
 }
 
 .show3{
     background: url("../img/Show-3.jpg") no-repeat;
     background-size: contain;
     background-position: center;
+    height: 88%;
+    width: 90%;
 }
 
 .row::after{
@@ -248,6 +253,31 @@ main.contact{
     text-align: center;
 }
 
+section{
+    width: 100%;
+    height: 50vh;
+   /*  background-color: rgba(255, 255, 255, .3); */
+    clear: both;
+    text-align: center;
+    color:rgba(255, 0, 0, 1);
+}
+
+.media{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+
+.showcont{
+    padding: 5%;
+}
+
+iframe{
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 /* label textarea{
     vertical-align: middle;
