@@ -254,8 +254,10 @@ main.contact{
     width: 60%;
     height: 970px;
     margin-left: 20%;
+    margin-top: 20px;
     background-color: rgba(255, 255, 255, .4);
     text-align: center;
+    border-radius: 10px;
 }
 
 .contact>h1, .contact>p, input, label, textarea{
@@ -301,6 +303,7 @@ iframe{
     margin-bottom: 50px;
     padding: 20px;
     background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
 }
 
 .bandpics{
